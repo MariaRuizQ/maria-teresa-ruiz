@@ -31,7 +31,7 @@ hr.estrella-blanca:after{
   padding:20px;
   bottom: 40px;
   color: white;
-  background-color:#880C0C;
+  background-color: #DC143C;
   display: inline-block;
   position: relative;
   font-size: 50px;
@@ -73,15 +73,15 @@ para que al aplicar position no salgan de ahí
   display: table;
   height: 80px;
   width: 100%;
-  background: #999966;
+  background-image: url("../assets/images/fondo2.jpg");
 
 }
 
 .cabecera .logo-palabra{
-  color: 	#495705;
+  color: 	rgba(169,3,41,1);
   text-decoration: none;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 900;
   overflow: hidden;
   line-height: 100px;
   display: table-cell;
@@ -106,7 +106,9 @@ para que al aplicar position no salgan de ahí
 }
 
 .cabecera .barra-menu ul li a{
-  color: #495705;
+  color: rgba(169,3,41,1);
+  font-weight: 900;
+  font-size: 30px;
   text-decoration: none;
   display: table-cell;
   vertical-align: middle;
@@ -128,20 +130,20 @@ para que al aplicar position no salgan de ahí
   width: 100%;
   padding-top: 120px; /*le aplico un padding, para bajar el contenido, ya que al hacer estatic la cabecera, este se mueve hacia arriba*/
   padding-bottom: 100px;
-  background-color:  #880C0C;
+  background-color:  #DC143C;
   text-align: center;
   color: #495705;
 }
 
-.principal h2{
+.contenido-1 h2{
   font-size: 70px;
   font-weight: 500;
   color: #333300;
 }
 
-.principal h3{
+marquee{
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 900;
   padding: 20px;
   color: #333300;
 }
@@ -264,11 +266,18 @@ iframe{
   width: 100%;
   justify-content: center;
   text-align: center;
-  margin-top: 30px;
+}
+
+.partes a{
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #CC6699;
 }
 
 .parte-2 div{
   width: 100%;
+  padding-top: 30px;
 
 }
 
@@ -300,12 +309,15 @@ iframe{
 }
 
 /*Estilos de la galeria*/
+.parte-2{
+  background-image: url("../assets/images/fondo.jpg");
+}
 
 .galeria {
 	width: 90%;
 	margin: auto;
 	list-style: none;
-	padding: 20px;
+	padding: 50px;
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
@@ -324,12 +336,19 @@ iframe{
 
 .galeria i{
   font-size: 200px;
+  color: #A24BA2;
+}
+
+.galeria i:active{
+  font-size: 300px;
+  color: 	#F08080;
 }
 /*Estilos del modal*/
 
 .modal {
 	display: none;
-  padding-top: 120px;
+  margin-top: 90PX;;
+  padding-top: 200px;
 }
 
 .modal:target {
@@ -399,7 +418,7 @@ iframe{
 
 footer{
   width: 100%;
-  background-color: #2c3e50;
+  background-color: #556B2F;
   text-align: center;
   color: white;
   padding-top: 50px;
@@ -473,4 +492,9 @@ footer div div h3{
 footer p{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+}
+
+audio{
+  width: 100%;
+  background-color: #556B2F;
 }
