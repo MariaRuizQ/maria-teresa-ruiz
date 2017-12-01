@@ -49,6 +49,11 @@ hr.estrella-blanca:after{
   position: fixed; /*le doy una posición fija a mi cabecera*/
   z-index: 1000;
 }
+
+.fecha{
+  padding: 15px;
+  font-size: 40px;
+}
 /*
 Aplico al div, que engloba todo el contenido del header
 */
